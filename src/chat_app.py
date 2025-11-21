@@ -44,6 +44,7 @@ from services.fallback_service import call_fallback, cora_fallback
 
 load_dotenv(override=True)
 
+
 # Configure structured logging
 logging.basicConfig(
     level=logging.INFO if os.getenv('DEBUG') else logging.WARNING,
